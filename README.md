@@ -6,10 +6,11 @@
 **Email:** nadirquiroga@gmail.com
 
 ## Descripción del Proyecto
-Este proyecto fue asignado por Mercado Libre a través de la facultad regional de Mendoza. El objetivo del proyecto es desarrollar un programa que...
+Este proyecto fue asignado por Mercado Libre a través de la facultad regional de Mendoza. El objetivo del proyecto es desarrollar un programa que Magneto reclute la mayor cantidad de mutantes para poder luchar contra los X-Mens. Desarrollando un proyecto que detecte si un humano es mutante basándose en su secuencia de ADN.
+Para que un individuo sea conciderado mutante deve tener al menos 2 grupos de cuatro letras (A,T,C,G) en forma de columna, fila y diagonal.
 
 ## Resolución
-La resolución del problema se llevó a cabo utilizando...
+Para resolver el problema, se implementó una lógica que verifica la presencia de dos o más secuencias de cuatro letras iguales consecutivas en un conjunto de ADN. Esto se logró explorando la matriz en direcciones horizontal, vertical y diagonal. La validación de la entrada del usuario asegura que la matriz de ADN sea válida antes de realizar la verificación mutante.
 
 ## Código
 
@@ -36,3 +37,20 @@ for fila in matriz_ingresada:
 # Comprobar si el ADN es mutante
 resultado = is_mutant(matriz_ingresada)
 print("\n¿Es mutante?", resultado)
+```
+###Instrucciones para ejecutar el programa:
+**Asegúrate de tener Python instalado en tu sistema.
+**Ejecuta el programa utilizando el comando python mutants.py.
+**Sigue las instrucciones para completar la matriz de ADN.
+## ¿Cómo Correrlo?
+
+**Requisitos Previos:**
+- Asegúrate de tener Python instalado en tu sistema.
+
+**Pasos para Ejecutar el Programa:**
+1. Descarga el archivo `Mutants.py` desde el repositorio.
+2. Abre una terminal o línea de comandos en el directorio donde se encuentra el archivo `Mutants.py`.
+3. Ejecuta el siguiente comando para iniciar el programa:
+   ```bash
+   python Mutants.py
+
